@@ -1,12 +1,13 @@
-// Fibonacci - for
+// Fibonacci - for e recursiva
 
 
 #include <stdio.h>
+#include "recfib.h"
 
 int main(){
 
-  int n = 6, fib = 1, aux1 = 0, aux2 = 1, i;
-
+  int n = 5, fib = 1, aux1 = 0, aux2 = 1, i;
+  // obs: n foi iniciado em 5 apenas como controle
   printf("Insira o termo da sequencia de Fibonacci que busca: \n");
   scanf("%d", &n);
 
@@ -17,7 +18,7 @@ int main(){
 
   }
 
-  printf("Fib= %d\n", fib);
+  printf("Por for: Fib= %d\n Por recursiva: Fib= %d\n", fib, recfib(n));
 
   return 0;
 }
