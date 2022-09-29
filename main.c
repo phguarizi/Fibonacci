@@ -18,7 +18,7 @@ int main(){
 
   }
 
-  printf("Por for: Fib= %d\n Por recursiva: Fib= %d\n", fib, recfib(n));
+  printf("Por for: Fib= %d\nPor recursiva: Fib= %d\n", fib, recfib(n));
 
   return 0;
 }
